@@ -46,7 +46,6 @@ X_train = X_train.reshape(X_train.shape[0], 32, 32, 1).astype('float32')
 X_test = X_test.reshape(X_test.shape[0], 32, 32, 1).astype('float32')
 
 # Building the Convolutional Model
-# Building the Convolutional Model
 conv_model = Sequential()
 conv_model.add(
     Conv2D(32, (4, 4), 
